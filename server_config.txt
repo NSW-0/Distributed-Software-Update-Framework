@@ -1,0 +1,18 @@
+# TCP port the server listens on
+port               = 9000
+
+# The latest available software version
+# Clients with a lower version will receive the update
+latest_version     = 3
+
+# Path to the update package file
+# (server creates a dummy file automatically if not found)
+update_file        = update_package.bin
+
+
+max_clients        = 32
+
+# Log file path
+log_file           = server.log
+
+bind_ip            = 0.0.0.0

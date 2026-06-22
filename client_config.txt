@@ -1,0 +1,13 @@
+# Update server address and port
+server_ip          = 127.0.0.1
+server_port        = 9000
+
+current_version    = 1
+
+
+client_name        = MyApp-Client
+
+save_dir           = ./downloads
+
+# Log file path
+log_file           = client.log
